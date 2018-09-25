@@ -1,13 +1,8 @@
 <template>
   <v-container fluid>
-    <v-slide-y-transition mode="out-in">
-      <v-layout column align-center>
-        <img src="@/assets/bantulab_logo.png" alt="BantuLabTech" class="mb-5">
-        <blockquote>
-          &#8220;Technology.Innovate.Build&#8221;
-        </blockquote>
-      </v-layout>
-    </v-slide-y-transition>
+    
+    <v-btn>Join BLT BootCamp</v-btn>
+
   </v-container>
 </template>
 
