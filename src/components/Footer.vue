@@ -45,7 +45,7 @@
     data: () => ({
       icons: [
         { value: 'fab fa-github', url: 'https://github.com/orgs/BantuLab' },
-        { value: 'fab fa-slack', url: 'https://bantulabtech.slack.com' },
+        { value: 'fab fa-slack', url: 'http://bit.ly/BantuLabTechSlack' },
         { value: 'fab fa-facebook', url: 'https://www.facebook.com/bantulabtech' },
         { value: 'fab fa-youtube', url: 'https://www.youtube.com/channel/UCPPRevmNDyxmMshNIEgpodw' },
         { value: 'fab fa-instagram', url: 'https://www.instagram.com/bantulabtech' },
