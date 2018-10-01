@@ -1,10 +1,16 @@
 <template>
-  <v-app>
-    <v-toolbar app></v-toolbar>
-    <v-content>
-      <v-container fluid>
-        <router-view></router-view>
-      </v-container>
+  <v-app >
+    <v-toolbar app>
+      <div class="container">
+        <span></span><router-link to="/" class="brand-logo">
+        BantuLabTech
+        </router-link>
+      </div>
+    </v-toolbar>
+     <v-content> 
+        <v-container fluid>
+          <router-view></router-view>
+      </v-container> 
     </v-content>
     <Footer/>
   </v-app>
@@ -30,3 +36,4 @@ export default {
   }
 }
 </script>
+

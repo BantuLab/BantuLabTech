@@ -23,8 +23,8 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-               BantuLab is a Technology Innovation Lab, providing free Quick Start Innovation Toolkits(QSIT) and immersive bootcamps, co-working space, and access to technical mentor-ship with an immersive tech saavy community! <br/>
-               We are passionate about what we do and belive in optimizing for productivity for all your creative imaginations and innovations! <br/><br/>
+               BantuLab is a Technology Innovation Lab, providing free access to Quick Start Innovation Toolkits(QSIT), Immersive Technology Bootcamps(ITB), co-working space, and access to technical mentor-ship with an immersive tech saavy community! <br/>
+               We are passionate about what we do and belive in optimizing for productivity to the best fit of all your creative ideas and innovations! <br/><br/>
                <p>
                  <a href="https://bantulabtech.slack.com" target="_blank" class="white--text">Get creative and join us now!</a>
                </p>
