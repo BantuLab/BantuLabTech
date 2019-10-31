@@ -1,0 +1,16 @@
+round((((count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id][@status='open'][latrine_​fully_​adequate='yes']) div count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id][@status='open']))*100)*100) div 100)
+
+round((((count(instance('casedb')/casedb/case[@case_type='household'][@status='open'][latrine_​fully_​adequate='yes'][index/parent = current()/@case_id]) div count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id][@status='open']))*100)*100) div 100)
+
+round((((count(instance('casedb')/casedb/case[@case_type='household'][@status='open'][latrine_​fully_​adequate='yes'][index/parent = current()/@case_id]) div count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id][@status='open']))*100)*100) div 100)
+
+round(((count(instance('casedb')/casedb/case[@case_type='household'][@status='open'][latrine_​fully_​adequate='yes'][index/parent = current()/@case_id]) div count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id][@status='open']))*100*100) div 100)
+
+count(instance('casedb')/casedb/case[@case_type='household'][@status='open'][latrine_​fully_​adequate='yes'][index/parent = current()/@case_id])
+
+count(instance('casedb')/casedb/case[@case_type='household'][latrine_​fully_​adequate='yes'][index/parent = current()/@case_id])
+
+count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id][@status='open'][latrine_​fully_​adequate='yes'])
+
+
+round((( count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id][@status='open]) div count(instance('casedb')/casedb/case[@case_type='household'][index/parent = current()/@case_id]))*100)*100) div 100
