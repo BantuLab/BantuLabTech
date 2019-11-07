@@ -4,12 +4,10 @@
         <br/>
         <div class="text-xs-center">
             <v-btn v-on:click="gotoSlack" target="_blank"  class="error">Join Tech Saavy Community</v-btn> 
-            <!-- <div> -->
-                <em class="text-xs-center">OR</em>
-            <!-- </div> -->
-            <v-btn :to="{name: 'register-member'}" class="primary">
-                Register as a member
-            </v-btn>
+             <!--   <em class="text-xs-center">OR</em> -->
+            <!-- <v-btn :to="{name: 'register-member'}" class="primary"> -->
+            <!--    Register as a member -->
+            <!-- </v-btn> -->
         </div>
         
     </v-container>

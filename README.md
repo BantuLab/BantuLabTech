@@ -28,3 +28,6 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Deploy to Heroku using Travis CI for automatic updates
+- See instructions [here](https://cli.vuejs.org/guide/deployment.html#using-travis-ci-for-automatic-updates)
