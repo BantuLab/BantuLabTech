@@ -12,7 +12,7 @@
         <v-btn
           v-for="icon in icons"
           :key="icon.value"
-          v-bind:href="icon.url" 
+          v-bind:href="icon.url"
           target="_blank"
           class="mx-3 white--text"
           icon

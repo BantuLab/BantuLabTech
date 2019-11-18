@@ -19,11 +19,11 @@
                 <v-btn large router to="/meetups/new" class="success">Organize Meetups</v-btn>
             </v-flex>
         </v-layout> -->
-        
+
     <!-- </v-container> -->
 </template>
 <script>
-    /* eslint-disable */ 
+/* eslint-disable */ 
     export default {
         data() {
             return {

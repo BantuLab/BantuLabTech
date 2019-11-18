@@ -1,60 +1,32 @@
 <template>
-  <v-app >
-    <v-toolbar app>
-      <!-- <div class="container" fluid> -->
-       <!-- <v-layout column align-center> -->
-        <!-- <v-toolbar-side-icon> -->
-          <!-- <router-link to="/" class="brand-logo" >
-            <img src="@/assets/bantulab_logo.png" class="mb-5">
-          </router-link> -->
-          <!-- <img src="@/assets/bantulab_logo.png"> -->
-        <!-- </v-toolbar-side-icon> -->
-        <v-toolbar-side-icon></v-toolbar-side-icon>
-          <v-icon large color="blue-grey darken-2">call_split</v-icon>
-        <v-toolbar-title >BantuLabTech</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-btn icon>
-          <v-icon>search</v-icon>
-        </v-btn>
-        <v-btn icon>
-          <v-icon>apps</v-icon>
-        </v-btn>
-        <v-btn icon>
-          <v-icon>refresh</v-icon>
-        </v-btn>
-        <v-btn icon>
-          <v-icon>more_vert</v-icon>
-        </v-btn>
-       <!-- </v-layout> -->
-      <!-- </div> -->
-    </v-toolbar>
-     <v-content> 
-        <v-container fluid>
-          <router-view></router-view>
-      </v-container> 
-    </v-content>
-    <Footer/>
-  </v-app>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
+  </div>
 </template>
 
-<script>
-import Footer from '@/components/Footer'
-export default {
-  data () {
-    return {
-      clipped: false,
-      drawer: true,
-      fixed: false,
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'BantuLabTech'
+<style lang="scss">
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
     }
-  },
-  name: 'App',
-  components: {
-    Footer
   }
 }
-</script>
-
+</style>

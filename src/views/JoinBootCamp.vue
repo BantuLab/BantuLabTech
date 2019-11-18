@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    
+
     <v-btn>Join BLT BootCamp</v-btn>
 
   </v-container>
