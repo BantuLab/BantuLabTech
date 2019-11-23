@@ -35,8 +35,7 @@
     </v-content>
     <Footer/>
   </v-app>
-</template>
-
+ </template>
 <script>
 import Footer from './views/Footer'
 export default {
