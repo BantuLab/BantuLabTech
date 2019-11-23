@@ -1,7 +1,6 @@
 <template>
   <v-app >
-    <v-toolbar app>
-        <v-toolbar-side-icon></v-toolbar-side-icon>
+    <v-app-bar app>
         <v-icon large color="blue-grey darken-2">call_split</v-icon>
         <v-toolbar-title >BantuLabTech</v-toolbar-title>
         <v-spacer></v-spacer>
@@ -17,7 +16,7 @@
         <v-btn icon>
           <v-icon>more_vert</v-icon>
         </v-btn>
-    </v-toolbar>
+    </v-app-bar>
      <v-content>
         <v-container fluid>
           <router-view></router-view>

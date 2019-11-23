@@ -1,8 +1,5 @@
 <template>
-  <v-footer
-    dark
-    height="auto"
-  >
+  <v-footer dark height="auto" class="pa-0"  >
     <v-card
       flat
       tile
