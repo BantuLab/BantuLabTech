@@ -1,17 +1,14 @@
 <template>
-    <v-container fluid>
-        <h2  class="text-xs-center">Welcome to BantuLab Technology Innovation Lab</h2>
-        <br/>
-        <div class="text-xs-center">
-            <v-btn v-on:click="gotoSlack" target="_blank"  class="error">Join Tech Saavy Community</v-btn>
-             <!--   <em class="text-xs-center">OR</em> -->
-            <!-- <v-btn :to="{name: 'register-member'}" class="primary"> -->
-            <!--    Register as a member -->
-            <!-- </v-btn> -->
-        </div>
-
-    </v-container>
-
+    <v-card>
+        <v-card-title primary-title class="justify-center">
+            <div>
+                <h1>Quick Start Technology Innovation Toolkits</h1>
+            </div>
+        </v-card-title>
+        <v-card-actions class="justify-center">
+            <v-btn v-on:click="gotoSlack" target="_blank"  class="error">Join Tech Saavy Community Now!</v-btn>
+        </v-card-actions>
+    </v-card>
 </template>
 
 <script>
@@ -28,7 +25,6 @@
         },
         methods: {
             gotoSlack(){
-                // window.location.href = "http://bit.ly/BantuLabTechSlack"
                 window.open('http://bit.ly/BantuLabTechSlack', '_blank')
             }
         }
