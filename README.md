@@ -32,3 +32,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Deploy to Production
+1. Follow the instructions [here](https://cli.vuejs.org/guide/deployment.html#heroku)
+2. Then configure Travis CI using the steps [here](https://docs.travis-ci.com/user/deployment/heroku/)
