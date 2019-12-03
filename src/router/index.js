@@ -3,6 +3,9 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import NotFound from '../views/NotFound.vue'
 import RegisterMember from '../views/RegisterMember.vue'
+import ShowEvents from '../views/ShowEvents.vue'
+import ShowEvent from '../views/ShowEvent.vue'
+import AddEvent from '../views/AddEvent.vue'
 
 Vue.use(VueRouter)
 
@@ -17,6 +20,21 @@ const routes = [
     name: 'register-member',
     component: RegisterMember
   },
+  {
+    path: '/events',
+    name: 'show-events',
+    component: ShowEvents
+  },
+  {
+    path: '/events/{id}',
+    name: 'show-event',
+    component: ShowEvent
+  },
+  {
+    path: '/addevent',
+    name: 'add-event',
+    component: AddEvent
+  }
   {
     path: '*',
     component: NotFound

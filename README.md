@@ -35,4 +35,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Deploy to Production
 1. Follow the instructions [here](https://cli.vuejs.org/guide/deployment.html#heroku)
-2. Then configure Travis CI using the steps [here](https://docs.travis-ci.com/user/deployment/heroku/)
+2. Install ruby 2.0.0 or higher, which is a dependency for Travis CLI
+3. Install Travis CLI and then configure Travis CI using the steps [here](https://docs.travis-ci.com/user/deployment/heroku/)
+
