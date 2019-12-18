@@ -23,6 +23,8 @@ npm run test:unit
 ### Run your end-to-end tests
 ```
 npm run test:e2e
+npx cypress open
+npx cypress run --record --key a8a7e111-ccc7-4047-aaf4-08fd2afa7447
 ```
 
 ### Lints and fixes files

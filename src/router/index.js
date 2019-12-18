@@ -34,7 +34,7 @@ const routes = [
     path: '/addevent',
     name: 'add-event',
     component: AddEvent
-  }
+  },
   {
     path: '*',
     component: NotFound

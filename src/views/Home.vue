@@ -1,5 +1,5 @@
 <template>
-    <v-card>
+    <v-card id="title_card">
         <v-card-title primary-title class="justify-center">
             <div>
                 <h1>Quick Start Technology Innovation Toolkits</h1>
