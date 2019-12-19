@@ -21,8 +21,8 @@ install:
 script:
   - npm run build
   - npm run test:unit
-# - npm run serve --mode production & wait-on $TEST_URL_ENV
-  - npx run test:e2e --headless --mode production --url $TEST_URL_ENV --record --key $CYPRESS_RECORD_KEY_ENV
+  - npm run serve --mode production & wait-on $TEST_URL_ENV
+  # - npx run test:e2e --headless --mode production --url $TEST_URL_ENV --record --key $CYPRESS_RECORD_KEY_ENV
 deploy:
   provider: heroku
   api_key:
