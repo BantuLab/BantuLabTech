@@ -33,8 +33,10 @@
     "null-loader": "^3.0.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
+    "start-server-and-test": "^1.10.6",
     "vue-cli-plugin-vuetify": "^2.0.2",
     "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.4.3"
+    "vuetify-loader": "^1.4.3",
+    "wait-on": "^3.3.0"
   }
 }
