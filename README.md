@@ -24,8 +24,11 @@ npm run test:unit
 ```
 npm run test:e2e
 npx cypress open
-npx cypress run --record --key a8a7e111-ccc7-4047-aaf4-08fd2afa7447
+npx cypress run --record --key cypress_record_key
 ```
+
+### Setup e2e on CI
+- Follow the instructions [here](https://docs.cypress.io/guides/guides/continuous-integration.html#Setting-up-CI)
 
 ### Lints and fixes files
 ```

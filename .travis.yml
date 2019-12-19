@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 12.13.0
+ - "lts/*"
 addons:
   apt:
     packages:
@@ -10,14 +10,19 @@ cache:
   npm: true
   directories:
   - "~/.cache"
+  - "./node_modules"
+  - "~/.cache"
+override:
+  - npm ci
+  - npm run cy:verify  
 install:
-- npm ci
-- chmod +x node_modules/.bin/*
+  - npm ci
+  - chmod +x node_modules/.bin/*
 script:
-- npm run build
-- npm run test:unit
+  - npm run build
+  - npm run test:unit
 # - npm run serve --mode production & wait-on $TEST_URL_ENV
-- npm run test:e2e --headless --mode production --url $TEST_URL_ENV --record --key $CYPRESS_RECORD_KEY_ENV
+  - npx run test:e2e --headless --mode production --url $TEST_URL_ENV --record --key $CYPRESS_RECORD_KEY
 deploy:
   provider: heroku
   api_key:
@@ -26,7 +31,7 @@ deploy:
   on:
     repo: BantuLabTech/BantuLabTech
   after_failure:
-  - find $HOME ! \( -type d \) -name node-dev -exec ls -lah {} \;
+    - find $HOME ! \( -type d \) -name node-dev -exec ls -lah {} \;
 env:
   global:
     - TEST_URL_ENV=http://localhost:8080
